@@ -10,5 +10,7 @@ File description:
 
 - **train_alphabeta_{90,95}.csv**: Paired alpha beta dataset. The partitioning is done using {90,95}% partitioning threshold and using the average similarity between alpha and beta chain;
 
-- **train_ab_{90,95}_{alpha,beta,aphabeta}.csv**: Paired alpha beta dataset. The partitioning is based on the {alpha,beta, alphabeta} chain(s) and is done using {90,95}% partitioning threshold.
+- **train_ab_{90,95}_{alpha,beta,aphabeta}.csv**: Paired alpha beta dataset. The partitioning is based on the {alpha,beta, alphabeta} chain(s) and is done using {90,95}% partitioning threshold;
+
+- **ext_eval_paired_data.csv**: Paired TCRs sequences of *external evaluation* of the alpha+beta model.
 
