@@ -1,6 +1,11 @@
 # NetTCR-2.0
 This repository contains the code and the data to train NetTCR-2.0 model.
+## License 
+NetTCR-2.0 is developed by Morten Nielsen's group at the Technical University of Denmark (DTU).
+NetTCR-2.0 code and data can be used freely by academic groups for non-commercial purposes.
+If you plan to use NetTCR or any data provided with the script in any for-profit application, you are required to obtain a separate license (contact Morten Nielsen, morni@dtu.dk). 
 
+For scientific questions, please contact Morten Nielsen (mniel@dtu.dk).
 ## Data
 This data folder contains the data files used to train NetTCR-2.0.
 
@@ -26,10 +31,3 @@ This will print the predictions on screen or on a file (that can be specified wi
 ## NetTCR server
 NetTCR-2.0 is also availavble as a web server at https://services.healthtech.dtu.dk/service.php?NetTCR-2.0.
 The server offers the possibility to evaluate pre-trained models on new data. See Instructions tab for more information.
-
-## License 
-NetTCR-2.0 is developed by Morten Nielsen's group at the Technical University of Denmark (DTU).
-NetTCR-2.0 code and data can be used freely by academic groups for non-commercial purposes.
-If you plan to use NetTCR or any data provided with the script in any for-profit application, you are required to obtain a separate license (contact Morten Nielsen, morni@dtu.dk). 
-
-For scientific questions, please contact Morten Nielsen (mniel@dtu.dk).
