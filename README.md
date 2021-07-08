@@ -29,7 +29,7 @@ The server offers the possibility to evaluate pre-trained models on new data. Se
 
 ## License 
 NetTCR-2.0 is developed by Morten Nielsen's group at the Technical University of Denmark (DTU).
-
-If you plan to use NetTCR or any data provided with the script in any for-profit application, you are required to obtain a separate license. 
+NetTCR-2.0 code and data can be used freely by academic groups for non-commercial purposes.
+If you plan to use NetTCR or any data provided with the script in any for-profit application, you are required to obtain a separate license (contact Morten Nielsen, morni@dtu.dk). 
 
 For scientific questions, please contact Morten Nielsen (mniel@dtu.dk).
