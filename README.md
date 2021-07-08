@@ -26,7 +26,7 @@ You can train the NetTCR_ab models running
 
 `python nettcr.py --trainfile test/sample_train.csv --testfile test/sample_test.csv`
 
-This will print the predictions on screen or on a file (that can be specified with the option --outfile).
+This will print the predictions on the standard output or on a file (that can be specified with the option --outfile).
 
 Both training and test set should be a comma-separated CSV files. The files should have the following columns (with headers): CDR3a, CDR3b, peptide, binder (the binder coulmn is not required in the test file). 
 See test/sample_train.csv and test/sample_test.csv as an example.
