@@ -28,6 +28,9 @@ You can train the NetTCR_ab models running
 
 This will print the predictions on screen or on a file (that can be specified with the option --outfile).
 
+Both training and test set should be a comma-separated CSV files. The files should have the following columns (with headers): CDR3a, CDR3b, peptide, binder (the binder coulmn is not required in the test file). 
+See test/sample_train.csv and test/sample_test.csv as an example.
+
 ## NetTCR server
 NetTCR-2.0 is also availavble as a web server at https://services.healthtech.dtu.dk/service.php?NetTCR-2.0.
 The server offers the possibility to evaluate pre-trained models on new data. See Instructions tab for more information.
