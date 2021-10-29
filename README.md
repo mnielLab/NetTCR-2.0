@@ -1,5 +1,5 @@
-# NetTCR-2.0
-This repository contains the code and the data to train NetTCR-2.0 model.
+# NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data
+This repository contains the code and the data to train [NetTCR-2.0](https://www.nature.com/articles/s42003-021-02610-3) model. 
 ## License 
 NetTCR-2.0 is developed by Morten Nielsen's group at the Technical University of Denmark (DTU).
 NetTCR-2.0 code and data can be used freely by academic groups for non-commercial purposes.
@@ -34,3 +34,7 @@ See test/sample_train.csv and test/sample_test.csv as an example.
 ## NetTCR server
 NetTCR-2.0 is also availavble as a web server at https://services.healthtech.dtu.dk/service.php?NetTCR-2.0.
 The server offers the possibility to evaluate pre-trained models on new data. See Instructions tab for more information.
+
+## Citation
+Montemurro, A., Schuster, V., Povlsen, H.R. et al. NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data. Commun Biol 4, 1060 (2021). https://doi.org/10.1038/s42003-021-02610-3
+
