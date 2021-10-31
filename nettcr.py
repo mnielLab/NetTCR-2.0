@@ -75,6 +75,7 @@ elif chain=="a":
     tcra_test = utils.enc_list_bl_max_len(test_data.CDR3a, encoding, 30)
     train_inputs = [tcra_test, pep_test]
     test_inputs = [tcra_test, pep_test]
+    mdl = nettcr_one_chain()
 elif chain=="b":
     pep_train = utils.enc_list_bl_max_len(train_data.peptide, encoding, 9)
     tcrb_train = utils.enc_list_bl_max_len(train_data.CDR3b, encoding, 30)
@@ -84,6 +85,7 @@ elif chain=="b":
     tcrb_test = utils.enc_list_bl_max_len(test_data.CDR3b, encoding, 30)
     train_inputs = [tcrb_test, pep_test]
     test_inputs = [tcrb_test, pep_test]
+    mdl = nettcr_one_chain()
 
 
 mdl.compile(loss="binary_crossentropy", optimizer=Adam(learning_rate=0.001))
