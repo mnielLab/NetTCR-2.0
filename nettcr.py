@@ -62,7 +62,7 @@ if chain=='ab':
     pep_test = utils.enc_list_bl_max_len(test_data.peptide, encoding, 9)
     tcra_test = utils.enc_list_bl_max_len(test_data.CDR3a, encoding, 30)
     tcrb_test = utils.enc_list_bl_max_len(test_data.CDR3b, encoding, 30)
-    train_inputs = [tcra_test, tcrb_test, pep_test]
+    train_inputs = [tcra_train, tcrb_train, pep_train]
     test_inputs = [tcra_test, tcrb_test, pep_test]
 
     mdl = nettcr_ab()
@@ -73,7 +73,7 @@ elif chain=="a":
 
     pep_test = utils.enc_list_bl_max_len(test_data.peptide, encoding, 9)
     tcra_test = utils.enc_list_bl_max_len(test_data.CDR3a, encoding, 30)
-    train_inputs = [tcra_test, pep_test]
+    train_inputs = [tcra_train, pep_train]
     test_inputs = [tcra_test, pep_test]
     mdl = nettcr_one_chain()
 elif chain=="b":
@@ -83,7 +83,7 @@ elif chain=="b":
 
     pep_test = utils.enc_list_bl_max_len(test_data.peptide, encoding, 9)
     tcrb_test = utils.enc_list_bl_max_len(test_data.CDR3b, encoding, 30)
-    train_inputs = [tcrb_test, pep_test]
+    train_inputs = [tcrb_train, pep_train]
     test_inputs = [tcrb_test, pep_test]
     mdl = nettcr_one_chain()
 
