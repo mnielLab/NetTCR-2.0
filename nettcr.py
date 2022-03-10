@@ -38,7 +38,7 @@ args = parser.parse_args()
 
 EPOCHS = int(args.epochs)
 chain = args.chain
-if chain!=["a","b","ab"]:
+if chain not in ["a","b","ab"]:
     print("Invalid chain. You can select a (alpha), b (beta), ab (alpha+beta)")
 
 print('Loading and encoding the data..')
